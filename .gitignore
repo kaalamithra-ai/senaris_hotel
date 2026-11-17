@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies / virtual envs
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs / temp
+*.log
+scripts/err.txt
+scripts/out.txt
+scripts/_inspect_out.txt
+scripts/*_out.txt
+
+# Playwright / browser profiles
+cdp-*/
